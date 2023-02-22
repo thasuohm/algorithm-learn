@@ -11,7 +11,7 @@ const merge = (left, right) => {
   return [...sorted, ...left, ...right]
 }
 
- const mergeSort = (arr) => {
+const mergeSort = (arr) => {
   if (arr.length < 2) {
     return arr
   }
